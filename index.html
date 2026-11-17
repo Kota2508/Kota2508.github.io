@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b1220">
+  <meta name="description" content="Karthik Kumar Kota — Software Engineer building full-stack products, backend systems, and AI-powered automation. Explore projects, experience, and contact information.">
+  <title>Karthik Kumar Kota | Software Engineer</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="ambient ambient-one" aria-hidden="true"></div>
+  <div class="ambient ambient-two" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Karthik Kumar Kota home"><span class="brand-mark">KK</span><span>Karthik Kumar Kota</span></a>
+    <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false" aria-controls="site-nav"><span></span><span></span></button>
+    <nav id="site-nav" class="site-nav" aria-label="Main navigation">
+      <a href="#work">Projects</a><a href="#experience">Experience</a><a href="#skills">Skills</a><a href="#contact">Contact</a>
+      <a class="nav-github" href="https://github.com/Kota2508" target="_blank" rel="noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero shell">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="pulse-dot"></span> SOFTWARE ENGINEER · HYDERABAD, INDIA</p>
+        <h1>I build software that makes <span class="gradient-text">complex work</span> feel simple.</h1>
+        <p class="hero-lede">Full-stack development, backend engineering, and AI-powered automation. I turn real workflows into dependable products with clear APIs, thoughtful data models, and tested behaviour.</p>
+        <div class="hero-actions"><a class="button button-primary" href="#work">Explore my work <span>↘</span></a><a class="button button-secondary" href="mailto:karthikkota2003@gmail.com">Get in touch <span>↗</span></a></div>
+        <div class="hero-meta"><span>2 years of software engineering experience</span><span class="meta-separator">·</span><span>Open to software engineering roles</span></div>
+      </div>
+      <div class="hero-card" aria-label="Engineering focus">
+        <div class="card-topline"><span>ENGINEERING FOCUS</span><span class="status-live">● AVAILABLE</span></div>
+        <div class="code-window"><div class="window-controls"><i></i><i></i><i></i><span>principles.js</span></div><pre><code><span class="code-purple">const</span> engineer = {
+  build: [
+    <span class="code-green">"backend systems"</span>,
+    <span class="code-green">"full-stack products"</span>,
+    <span class="code-green">"AI automation"</span>
+  ],
+  careAbout: [
+    <span class="code-green">"reliability"</span>,
+    <span class="code-green">"security"</span>,
+    <span class="code-green">"good testing"</span>
+  ],
+  mindset: <span class="code-orange">"ship, learn, improve"</span>
+};</code></pre></div>
+        <div class="focus-footer"><div><span class="focus-number">03</span><span>FEATURED PROJECTS</span></div><div><span class="focus-number">21</span><span>PASSING TESTS</span></div><div><span class="focus-number">01</span><span>ENGINEERING MINDSET</span></div></div>
+      </div>
+      <div class="scroll-cue"><span></span> SCROLL TO EXPLORE</div>
+    </section>
+
+    <section id="work" class="section shell">
+      <div class="section-heading"><div><p class="eyebrow">01 / SELECTED WORK</p><h2>Projects built to solve <span class="muted">real problems.</span></h2></div><p class="section-note">Three independent applications demonstrating API design, transaction safety, workflow modelling, and security engineering.</p></div>
+      <div class="project-grid">
+        <article class="project-card project-featured">
+          <div class="project-image"><img src="assets/ordercore-dashboard.png" alt="OrderCore order and inventory management dashboard screenshot" loading="lazy"><span class="image-label">01 / BACKEND SYSTEMS</span></div>
+          <div class="project-content"><div class="project-kicker"><span>COMMERCE · INVENTORY</span><span class="project-index">01</span></div><h3>OrderCore</h3><p>A commerce backend built around safe checkout and inventory operations. Orders reserve stock atomically, handle retries through idempotency keys, and release reservations on cancellation.</p><div class="tag-row"><span>Node.js</span><span>SQLite</span><span>REST API</span><span>Transactions</span></div><ul class="project-points"><li>Atomic inventory reservation and rollback behaviour.</li><li>Idempotent checkout prevents duplicate order creation.</li><li>Lifecycle tests cover confirmation, cancellation, and overselling.</li></ul><div class="project-links"><a href="https://github.com/Kota2508/ordercore" target="_blank" rel="noreferrer">View source <span>↗</span></a><a href="https://github.com/Kota2508/ordercore#readme" target="_blank" rel="noreferrer">Documentation <span>↗</span></a></div></div>
+        </article>
+        <article class="project-card">
+          <div class="project-image"><img src="assets/applytrack-dashboard.png" alt="ApplyTrack job application management dashboard screenshot" loading="lazy"><span class="image-label">02 / FULL-STACK PRODUCT</span></div>
+          <div class="project-content"><div class="project-kicker"><span>CAREER-TECH · WORKFLOWS</span><span class="project-index">02</span></div><h3>ApplyTrack</h3><p>A job application management system with a validated lifecycle, audit history, searchable records, and a responsive dashboard.</p><div class="tag-row"><span>Node.js</span><span>SQLite</span><span>REST API</span><span>Concurrency</span></div><ul class="project-points"><li>State transitions are validated before writes.</li><li>Optimistic concurrency rejects stale updates.</li><li>Audit events preserve application history.</li></ul><div class="project-links"><a href="https://github.com/Kota2508/applytrack" target="_blank" rel="noreferrer">View source <span>↗</span></a><a href="https://github.com/Kota2508/applytrack#readme" target="_blank" rel="noreferrer">Documentation <span>↗</span></a></div></div>
+        </article>
+        <article class="project-card">
+          <div class="project-image"><img src="assets/vulnboard-dashboard.png" alt="VulnBoard vulnerability management dashboard screenshot" loading="lazy"><span class="image-label">03 / SECURITY ENGINEERING</span></div>
+          <div class="project-content"><div class="project-kicker"><span>CYBERSECURITY · REMEDIATION</span><span class="project-index">03</span></div><h3>VulnBoard</h3><p>A vulnerability management platform for scanner ingestion, finding deduplication, severity prioritisation, and remediation tracking.</p><div class="tag-row"><span>Node.js</span><span>SQLite</span><span>API Security</span><span>CVSS</span></div><ul class="project-points"><li>Authenticated ingestion endpoints for scan data.</li><li>SHA-256 fingerprints identify repeated findings.</li><li>Severity-based SLAs guide remediation workflows.</li></ul><div class="project-links"><a href="https://github.com/Kota2508/vulnboard" target="_blank" rel="noreferrer">View source <span>↗</span></a><a href="https://github.com/Kota2508/vulnboard#readme" target="_blank" rel="noreferrer">Documentation <span>↗</span></a></div></div>
+        </article>
+      </div>
+      <p class="portfolio-footnote">Each project includes source code, setup instructions, API examples, dashboard screenshots, and automated tests.</p>
+    </section>
+
+    <section id="experience" class="section section-alt">
+      <div class="shell">
+        <div class="section-heading"><div><p class="eyebrow">02 / EXPERIENCE</p><h2>Engineering through <span class="muted">ownership.</span></h2></div><p class="section-note">Product development and security experience, with a focus on taking workflows from implementation through reliable operation.</p></div>
+        <div class="timeline">
+          <article class="timeline-item"><div class="timeline-date">NOV 2024 — PRESENT</div><div class="timeline-marker"></div><div class="timeline-main"><div class="timeline-title"><div><h3>Software Engineer — AI & Full Stack Development</h3><p>ScoutBetter <span>·</span> Hyderabad, India</p></div><span class="timeline-number">01</span></div><ul><li>Co-developed a B2C career-tech platform spanning candidate profiles, resume processing, job discovery, tailored applications, and application tracking.</li><li>Integrated Claude API for ATS-oriented resume generation, reducing optimization time from 60 minutes to 10 minutes per 10 resumes.</li><li>Built Playwright browser automation and Gmail API/OAuth 2.0 integrations to classify application communications and synchronize status updates.</li><li>Supported workflows for 150+ monthly active candidates and reduced manual intervention by 80% per application.</li></ul><div class="tag-row"><span>Java</span><span>JavaScript</span><span>SQL</span><span>Claude API</span><span>Playwright</span><span>OAuth 2.0</span></div></div></article>
+          <article class="timeline-item"><div class="timeline-date">JUL 2024 — SEP 2024</div><div class="timeline-marker"></div><div class="timeline-main"><div class="timeline-title"><div><h3>Cyber Security Intern</h3><p>Palo Alto Networks <span>·</span> Remote, India</p></div><span class="timeline-number">02</span></div><ul><li>Conducted vulnerability assessments and penetration-testing exercises in simulated environments using Nmap, Wireshark, and Burp Suite.</li><li>Analysed network traffic, system logs, and security alerts; documented findings and remediation recommendations.</li><li>Participated in incident-response exercises covering alert triage, root-cause investigation, and vulnerability validation.</li></ul><div class="tag-row"><span>Nmap</span><span>Wireshark</span><span>Burp Suite</span><span>Linux</span><span>Incident Response</span></div></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section shell">
+      <div class="section-heading"><div><p class="eyebrow">03 / TOOLKIT</p><h2>Tools I use to <span class="muted">make things work.</span></h2></div><p class="section-note">A practical mix of product engineering, data handling, applied AI, and security tooling.</p></div>
+      <div class="skills-grid">
+        <div class="skill-group"><span class="skill-icon">{ }</span><h3>Languages</h3><p>Java · JavaScript · SQL</p></div>
+        <div class="skill-group"><span class="skill-icon">⌘</span><h3>Backend & APIs</h3><p>REST APIs · OAuth 2.0 · API integration · Backend development</p></div>
+        <div class="skill-group"><span class="skill-icon">◫</span><h3>Frontend</h3><p>HTML5 · CSS3 · JavaScript</p></div>
+        <div class="skill-group"><span class="skill-icon">✳</span><h3>AI & Automation</h3><p>Claude API · LLM integration · Prompt engineering · Playwright</p></div>
+        <div class="skill-group"><span class="skill-icon">▤</span><h3>Data & Quality</h3><p>SQL · Relational databases · Debugging · Automated testing</p></div>
+        <div class="skill-group"><span class="skill-icon">◇</span><h3>Security</h3><p>Nmap · Wireshark · Burp Suite · Linux · Vulnerability assessment</p></div>
+      </div>
+    </section>
+
+    <section class="education-band"><div class="shell education-inner"><div><p class="eyebrow">EDUCATION</p><h3>B.Tech — Computer Science (Cyber Security)</h3><p>MLR Institute of Technology · Hyderabad, India</p></div><div class="education-score"><strong>8.6<span>/10</span></strong><small>GPA · 2025</small></div></div></section>
+
+    <section id="contact" class="section contact-section shell"><p class="eyebrow">04 / LET'S CONNECT</p><h2>Have a problem worth <span class="gradient-text">engineering?</span></h2><p class="contact-lede">I'm exploring software engineering opportunities in backend systems, full-stack product development, APIs, and applied AI. Let's talk.</p><a class="button button-primary contact-button" href="mailto:karthikkota2003@gmail.com">karthikkota2003@gmail.com <span>↗</span></a><div class="social-row"><a href="https://github.com/Kota2508" target="_blank" rel="noreferrer">GitHub ↗</a><a href="mailto:karthikkota2003@gmail.com">Email ↗</a></div></section>
+  </main>
+  <footer class="site-footer"><div class="shell footer-inner"><span>© <span id="year"></span> Karthik Kumar Kota</span><span>Designed with care. Built to be useful.</span><a href="#top">Back to top ↑</a></div></footer>
+  <script src="script.js"></script>
+</body>
+</html>
